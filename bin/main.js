@@ -6,7 +6,7 @@ const pkg = require('../package.json');
 program.version(pkg.version).usage('<command> [options]');
 
 program.on('--help', () => {
-  console.log(chalk.green('Template'));
+  console.log(chalk.green('Template output'));
 });
 
 program
